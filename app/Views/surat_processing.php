@@ -30,7 +30,7 @@
                     <a id="manualDownload" href="<?= esc($downloadUrl ?? '#') ?>" class="btn btn-primary btn-lg">Unduh Surat</a>
                 </div>
                 <div class="text-center mt-3">
-                    <a href="<?= site_url('surat') ?>" class="btn btn-link">Kembali ke Form</a>
+                    <a href="<?= site_url('surat/history') ?>" class="btn btn-link">Kembali ke Histori Surat</a>
                 </div>
             <?php endif; ?>
         </div>
